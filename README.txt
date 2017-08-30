@@ -11,7 +11,7 @@ DATASETS
 	(28,000 images, 186 unique facts) 
 	wit the training and testing splits
 	Fact Recognition Top 1 Accuracy (our method): 69.63% 
-	Fact Recognition MAP/MAP100 (our method): 34.86%/ 50.68%
+	Image Retrieval MAP/MAP100 (our method): 34.86%/ 50.68%
 
 
 2)  LSC (Large Scale benchmark) 
@@ -24,7 +24,7 @@ cat LSC_dataset.tar.gz.* > LSC_dataset.tar.gz
 with the training and testing splits
 
 	Fact Recognition Top 1 Accuracy (our method): 16.39%
-	Fact Recognition MAP/MAP100 (our method): 1.0%
+	Image Retrieval MAP/MAP100 (our method): 1.0%
 
 
 CODE INSTALLATION ()
