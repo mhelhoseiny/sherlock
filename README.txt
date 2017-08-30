@@ -1,7 +1,34 @@
 This code is for training sherlock models in this paper
 
-Elhoseiny etal,  Sherlock: Scalable Fact Learning in Images, AAAI, 2017
+Mohamed Elhoseiny, Scott Cohen, Walter Chang, Brian Price, Ahmed Elgamma,  Sherlock: Scalable Fact Learning in Images, AAAI, 2017
 
+This documents presented the Datasets and the Code Installation steps
+
+DATASETS
+=========
+
+1) 6DS benchmark   https://dl.dropboxusercontent.com/u/33950950/sherlock_project/data/6DS_dataset.zip (2.4 GB)
+	(28,000 images, 186 unique facts) 
+	wit the training and testing splits
+	Fact Recognition Top 1 Accuracy (our method): 69.63% 
+	Fact Recognition MAP/MAP100 (our method): 34.86%/ 50.68%
+
+
+2)  LSC (Large Scale benchmark) 
+  (814K images, 202K unique  facts) 
+	part 1,LSC_dataset.tar.gz.aa  https://dl.dropboxusercontent.com/u/33950950/sherlock_project/data/LSC_dataset.tar.gz.aa (11.72 GB):
+	part 2, LSC_dataset.tar.gz.ab https://dl.dropboxusercontent.com/u/33950950/sherlock_project/data/LSC_dataset.tar.gz.ab (8.73 GB):
+	After download, run
+cat LSC_dataset.tar.gz.* > LSC_dataset.tar.gz
+	Then extract LSC_dataset.tar.gz
+with the training and testing splits
+
+	Fact Recognition Top 1 Accuracy (our method): 16.39%
+	Fact Recognition MAP/MAP100 (our method): 1.0%
+
+
+CODE INSTALLATION ()
+====================
 
 1) Install Caffe Pre-requisities (Don not install Caffe itself since we will build the sherlock (our) version of caffe)
    Follow the isstructions here to install all the depenednceis depending on your OS verison.
