@@ -1,0 +1,14 @@
+net: "models/sherlock_VGG16_6DS_model1_wc/train_val.prototxt"
+test_iter: 20
+test_interval: 5000
+base_lr: 0.000005
+lr_policy: "step"
+gamma: 0.1
+stepsize: 100000
+display: 20
+max_iter: 700000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 5000
+snapshot_prefix: "models/sherlock_VGG16_6DS_model1_wc/sherlock_VGG16_6DS_model1_wc_train"
+solver_mode: GPU

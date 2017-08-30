@@ -1,0 +1,3 @@
+wget https://www.dropbox.com/s/rgkkfsk3a3aeszg/sherlock_VGG16_6DS_model1_wc_train_iter_380000.caffemodel
+mv sherlock_VGG16_6DS_model1_wc_train_iter_380000.caffemodel ./sherlock_VGG16_6DS_model1_wc/
+rm init_models.zip
