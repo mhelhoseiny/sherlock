@@ -27,7 +27,7 @@ with the training and testing splits
 	Image Retrieval MAP/MAP100 (our method): 1.0%
 
 
-CODE INSTALLATION ()
+CODE INSTALLATION INSTRUCTIONS
 ====================
 
 1) Install Caffe Pre-requisities (Don not install Caffe itself since we will build the sherlock (our) version of caffe)
